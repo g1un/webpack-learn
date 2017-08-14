@@ -1,3 +1,6 @@
+@import "colors";
+@import "sprite";
+
 #randomInt {
   background-color: $main;
   border: 1px solid black;
@@ -10,4 +13,12 @@
   border: 1px solid black;
   color: white;
   padding: 5px;
+}
+
+.chrome {
+  @include sprite($chrome);
+}
+
+.firefox {
+  @include sprite($firefox);
 }
